@@ -44,3 +44,7 @@ class Dog {
 // creating an object (instance)
 const myDog = new Dog("Rayne", "Husky");
 myDog.bark(); // Output: Rayne says woof!
+
+## Class Getters and Setters
+We can use getter and setter methods to get the value of an object and set the value of an object. 
+We can use the get keyword for the getter method and the set keyword for the setter methods
