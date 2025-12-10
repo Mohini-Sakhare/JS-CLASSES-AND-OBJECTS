@@ -1,0 +1,14 @@
+## Classes and Objects in JavaScript
+In JavaScript, classes and objects are basic concepts of Object Oriented Programming (OOPs) that are used to represent real-world concepts and entities.
+
+A class is a template to create objects having similar properties and behavior, or in other words, we can say that a class is a blueprint for objects.
+An object is an instance of a class. For example, the animal type Dog is a class, while a particular dog named Tommy is an object of the Dog class.
+
+** JavaScript Classes
+A class in JavaScript is a blueprint used to create objects that share similar properties and methods. 
+It’s a cleaner, more structured way to implement object-oriented programming compared to the older prototype-based approach.
+
+** The Constructor Method
+The constructor method is a special method in JavaScript with the exact name 'constructor.' 
+It is automatically executed when a new object is created from a class.
+Its primary purpose is to initialize object properties, allowing you to define the initial state of an object during its instantiation.
