@@ -12,3 +12,35 @@ It’s a cleaner, more structured way to implement object-oriented programming c
 The constructor method is a special method in JavaScript with the exact name 'constructor.' 
 It is automatically executed when a new object is created from a class.
 Its primary purpose is to initialize object properties, allowing you to define the initial state of an object during its instantiation.
+
+// define a class
+class Dog {
+  static sound = "bark"; // class property
+
+  constructor(name) {
+    this.name = name; // instance property
+  }
+}
+
+** JavaScript Class Methods
+Defining class methods in JavaScript is easy and simple, we just need to add () following a method name. 
+
+Example:
+
+
+
+class Dog {
+  constructor(name, breed) {
+    this.name = name;   // instance property
+    this.breed = breed; // instance property
+  }
+
+  // defining method
+  bark() {
+    console.log(`${this.name} says woof!`);
+  }
+}
+
+// creating an object (instance)
+const myDog = new Dog("Rayne", "Husky");
+myDog.bark(); // Output: Rayne says woof!
