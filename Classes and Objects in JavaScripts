@@ -80,3 +80,19 @@ myDog.dogName = 'Buddy'; // using setter
 console.log(myDog.name); // Buddy
 
 myDog.bark(); // Buddy says woof!
+
+## Object
+An object in JavaScript is a specific instance of a class. 
+It contains its own set of data (properties) and can use the methods defined in its class. 
+Multiple objects can be created from the same class, each having unique values for their properties.
+
+Let’s create an object from the Dog class:
+class Dog {
+  static sound = "bark"; // class property
+}
+
+// Create an object from the class
+let dog1 = new Dog();
+
+// Access the class property
+console.log(Dog.sound); // bark
