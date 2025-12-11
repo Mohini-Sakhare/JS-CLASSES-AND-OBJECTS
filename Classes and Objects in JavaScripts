@@ -110,3 +110,21 @@ To Access Object Properties:
 
 Syntax:
 object_name.key_1
+
+2. Using bracket Notation: 
+
+Syntax:
+object_name["key_1"]
+JavaScript Nested Objects:
+In this case, an object contains another object inside it. 
+
+Example:
+const dog1 = {
+    name: "Rayne",
+    breed: "Husky"
+};
+
+const dog2 = {
+    name: "Buddy",
+    breed: "Beagle"
+};
