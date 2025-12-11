@@ -96,3 +96,17 @@ let dog1 = new Dog();
 
 // Access the class property
 console.log(Dog.sound); // bark
+
+In the above JavaScript code, the sound property is a class property (declared using static).
+This means it is shared across all instances of the Dog class and does not belong to any single object.
+
+Because it’s static, it can be accessed directly using the class name (Dog.sound) without creating an object, or from an instance.
+
+## JavaScript Object Properties
+In JavaScript the members inside the object which are the key: values are called Object properties. For example, in the above code, name is an object property (unique to each instance), and sound is a class property (shared by all instances of the class).
+
+To Access Object Properties:
+1. Using dot Notation: 
+
+Syntax:
+object_name.key_1
