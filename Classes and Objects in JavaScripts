@@ -128,3 +128,23 @@ const dog2 = {
     name: "Buddy",
     breed: "Beagle"
 };
+
+## JavaScript Object Methods
+In JavaScript, we can add methods to Objects.
+
+Example: 
+In the given example we can see how we can apply Javascript nested objects and also use the different accessing methods.
+
+const Dog = {
+    breed: 'Husky',
+    color: 'Gray & White',
+    details: {
+        height: '18 inches',
+        weight: '30 pounds'
+    }
+};
+
+console.log(Dog.breed);              // Husky
+console.log(Dog.details.height);     // 18 inches
+console.log(Dog["color"]);           // Gray & White
+console.log(Dog.details["weight"]);  // 30 pounds
